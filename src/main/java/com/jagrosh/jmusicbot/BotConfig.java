@@ -76,11 +76,11 @@ public class BotConfig
             Config config = ConfigFactory.load();
             
             // set values
-            token = config.getString("token");
-            prefix = config.getString("prefix");
-            altprefix = config.getString("altprefix");
+            token = config.getString("NzM5ODU5MjgyNjg1NTkxNjQ0.Xyglpg.dhE7ovkkRhWbR2YBA5xYIbGnPB4");
+            prefix = config.getString("$");
+            altprefix = config.getString("$$");
             helpWord = config.getString("help");
-            owner = config.getLong("owner");
+            owner = config.getLong("699598585741836328");
             successEmoji = config.getString("success");
             warningEmoji = config.getString("warning");
             errorEmoji = config.getString("error");
@@ -102,7 +102,7 @@ public class BotConfig
             boolean write = false;
 
             // validate bot token
-            if(token==null || token.isEmpty() || token.equalsIgnoreCase("BOT_TOKEN_HERE"))
+            if(token==null || token.isEmpty() || token.equalsIgnoreCase("NzM5ODU5MjgyNjg1NTkxNjQ0.Xyglpg.dhE7ovkkRhWbR2YBA5xYIbGnPB4"))
             {
                 token = prompt.prompt("Please provide a bot token."
                         + "\nInstructions for obtaining a token can be found here:"
